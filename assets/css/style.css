@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    background-color: whitesmoke;
+    color: dimgray;
+}
+.body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    margin: 0;
+    background-color: lightgrey;
+    color: palevioletred;
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav ul li {
+    background-color: lightgrey;
+    color: palevioletred;
+    display: inline;
+    margin-left: 25px;
+}
+
+a {
+    color: palevioletred;
+    text-decoration: none;
+  
+}
+
+.about {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    color: dimgray;
+}
+
+h2 {
+    width: 100%;
+    padding: auto;
+    font-size: 26px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.about img {
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    justify-content: center;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    margin: 30px;
+}
+
+.work {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightgrey;
+    color: palevioletred;
+}
+
+.work img {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    align-items: center;
+}
+
+.contact {
+    width: 100%;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.contact a {
+    color: palevioletred;
+}
