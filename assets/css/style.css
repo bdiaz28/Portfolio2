@@ -102,10 +102,14 @@ h2 {
 }
 
 #brewery{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
+#blog {
+    height: 250px;
+    width: 250px;
+}
 .contact {
   width: 100%;
   padding: 20px 35px;
